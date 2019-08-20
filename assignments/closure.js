@@ -4,7 +4,7 @@
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 
-function aboutMe(name) {
+function aboutMe() {
 	let favoriteFood = 'pizza';
 	let favoriteDrink = 'water';
 	function myFavoriteFood() {
