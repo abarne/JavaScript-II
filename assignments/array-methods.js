@@ -502,7 +502,7 @@ const runnersLastNames = runners.map(function(item) {
 	return item.last_name;
 });
 console.log(runnersLastNames);
-
+console.table(runnersLastNames);
 // Problem 3
 //tally up all of the donations that are 200 or more.
 const allLargeDonations = largeDonations.reduce(function(accumulator, item) {
